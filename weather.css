@@ -1,0 +1,43 @@
+body {
+    background-image: url("evening-sunset-partly-cloudy.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+.lobster {
+    font-family: 'Lobster Two', cursive;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+  }
+
+  .big {
+    font-size: 80px;
+}
+
+.small {
+    font-size: 20px;
+    font-family: 'Helvetica'
+}
+
+.weather-img {
+    width:400px;
+    height:300x;
+}
+
+.temperature-class {
+    font-size: 100px;   
+}
+
+.HumidityClass {
+    font-size:30px;
+    text-align:center;
+}
+
+.tempHiLo {
+    font-size:40px;
+    text-align:center;
+}
