@@ -14,13 +14,49 @@ const weatherData = {
                 "temp": 58.24,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 55.4,
-                "temp_max": 60.8
+                "temp_min": 33.4,
+                "temp_max": 55.8
             },
             "dt": 1534258560,
             "wind": {
                 "speed": 3.49,
                 "deg": 338.504
+            },
+            "sys": {
+                "country": ""
+            },
+            "rain": null,
+            "snow": null,
+            "clouds": {
+                "all": 90
+            },
+            "weather": [
+                {
+                    "id": 701,
+                    "main": "Cloudy",
+                    "description": "mist",
+                    "icon": "50d"
+                }
+            ]
+        },
+        {
+            "id": 5324802,
+            "name": "Arroyo Grande",
+            "coord": {
+                "lat": 35.1186,
+                "lon": -120.5908
+            },
+            "main": {
+                "temp": 58.62,
+                "pressure": 1014,
+                "humidity": 87,
+                "temp_min": 65.2,
+                "temp_max": 90.8
+            },
+            "dt": 1534258560,
+            "wind": {
+                "speed": 5.82,
+                "deg": 130
             },
             "sys": {
                 "country": ""
@@ -40,42 +76,6 @@ const weatherData = {
             ]
         },
         {
-            "id": 5324802,
-            "name": "Arroyo Grande",
-            "coord": {
-                "lat": 35.1186,
-                "lon": -120.5908
-            },
-            "main": {
-                "temp": 58.62,
-                "pressure": 1014,
-                "humidity": 87,
-                "temp_min": 57.2,
-                "temp_max": 60.8
-            },
-            "dt": 1534258560,
-            "wind": {
-                "speed": 5.82,
-                "deg": 130
-            },
-            "sys": {
-                "country": ""
-            },
-            "rain": null,
-            "snow": null,
-            "clouds": {
-                "all": 90
-            },
-            "weather": [
-                {
-                    "id": 701,
-                    "main": "Mist",
-                    "description": "mist",
-                    "icon": "50d"
-                }
-            ]
-        },
-        {
             "id": 5354552,
             "name": "Grover Beach",
             "coord": {
@@ -86,8 +86,8 @@ const weatherData = {
                 "temp": 58.62,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 57.2,
-                "temp_max": 60.8
+                "temp_min": 32.2,
+                "temp_max": 50.8
             },
             "dt": 1534258560,
             "wind": {
@@ -105,7 +105,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Cloudy",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -141,7 +141,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Sunny",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -158,8 +158,8 @@ const weatherData = {
                 "temp": 58.62,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 57.2,
-                "temp_max": 60.8
+                "temp_min": 42.2,
+                "temp_max": 65.8
             },
             "dt": 1534258560,
             "wind": {
@@ -177,7 +177,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Sunny",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -194,8 +194,8 @@ const weatherData = {
                 "temp": 58.06,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 55.4,
-                "temp_max": 60.8
+                "temp_min": 59.4,
+                "temp_max": 88.8
             },
             "dt": 1534258560,
             "wind": {
@@ -213,7 +213,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Cloudy",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -230,8 +230,8 @@ const weatherData = {
                 "temp": 59.04,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 57.2,
-                "temp_max": 60.8
+                "temp_min": 39.2,
+                "temp_max": 65.8
             },
             "dt": 1534258560,
             "wind": {
@@ -249,7 +249,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Rainy",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -266,8 +266,8 @@ const weatherData = {
                 "temp": 58.53,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 57.2,
-                "temp_max": 60.8
+                "temp_min": 48.2,
+                "temp_max": 70.8
             },
             "dt": 1534258560,
             "wind": {
@@ -285,7 +285,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Rainy",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -302,8 +302,8 @@ const weatherData = {
                 "temp": 58.62,
                 "pressure": 1014,
                 "humidity": 87,
-                "temp_min": 57.2,
-                "temp_max": 60.8
+                "temp_min": 55.2,
+                "temp_max": 65.8
             },
             "dt": 1534258560,
             "wind": {
@@ -321,7 +321,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Cloudy",
                     "description": "mist",
                     "icon": "50d"
                 }
@@ -339,7 +339,7 @@ const weatherData = {
                 "pressure": 1014,
                 "humidity": 87,
                 "temp_min": 55.4,
-                "temp_max": 60.8
+                "temp_max": 112.8
             },
             "dt": 1534258560,
             "wind": {
@@ -357,7 +357,7 @@ const weatherData = {
             "weather": [
                 {
                     "id": 701,
-                    "main": "Mist",
+                    "main": "Sunny",
                     "description": "mist",
                     "icon": "50d"
                 }
