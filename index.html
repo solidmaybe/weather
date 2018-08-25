@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="weather.css" />
-    <style>
+
+       <style>
         body{
             background-image: url("https://solidmaybe.github.io/weather/partly-cloudy-early-evening-light.jpg");
             background-repeat: no-repeat;
@@ -25,9 +26,11 @@
 
 </head>
 
-<body background= "https://solidmaybe.github.io/weather/partly-cloudy-early-evening-light.jpg"> 
+<body background= "Pics/partlyCloudy2.jpg"> 
+    
 <div class="container">
-        <select id="mySelect" onchange="gitCity()">
+        <span class="logo white lobster">SMW</span>
+    <select id="mySelect" onchange="gitCity()">
                 <option value="Arroyo Grande">Arroyo Grande
                 <option value="Callender">Callender
                 <option value="Grover Beach">Grover Beach
@@ -39,50 +42,32 @@
                 <option value="San Luis Obispo County">San Luis Obispo County
                 <option value="Santa Maria">Santa Maria
               </select>    
-<!-- <div class="dropdown">
-    
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
-        aria-expanded="false">
-        Select City
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <button type="button" id="city_01" class="btn dropdown-item">Arroyo Grande</button>
-        <button type="button" id="city_02" class="btn dropdown-item">Callender</button>
-        <button type="button" id="city_03" class="btn dropdown-item">Grover Beach</button>
-        <button type="button" id="city_04" class="btn dropdown-item">Miles</button>
-        <button type="button" id="city_05" class="btn dropdown-item">Nipomo</button>
-        <button type="button" id="city_06" class="btn dropdown-item">Oceano</button>
-        <button type="button" id="city_07"class="btn dropdown-item">Pismo Beach</button>
-        <button type="button" id="city_08"class="btn dropdown-item">San Luis Obispo</button>
-        <button type="button" id="city_09"class="btn dropdown-item">San Luis Obispo County</h4></button>
-        <button type="button" id="city_10"class="btn dropdown-item">Santa Maria</button>
-        
-    </div>
--->
+
 </div> 
-<h1 id= "city_name" class="lobster text-center big">Your City, CA</h1>
+<h1 id= "city_name" class="lobster text-center big white">Your City, CA</h1>
 <h2 class="lobster text-center small">Solid Maybe Weather</h2>
 
 
-<div class="row">
+<div class="row white">
         <div class="col-md-6">
-                <img id= "weatherImgID" class= "weather-img" src= "Pics/overcast.jpg">
+                <img id= "iconImgID" class= "icon" src= "SVG/sunny.svg">
+                <p class= "conditions" id= "cityWeather">Test Text</p>
                 
                 </div>
                 <div class="col-md-6">
-                    <p id="temperatureID" class= "temperature-class">73°</p>
+                    <p id="temperatureID" class= "temperature-class">73</p>
                 </div>
                 
 </div>
-<div class="row">
+<div class="row white">
         <div class="col-md-4">
                 
                 
                 </div>
                 <div class="col-md-8">
                     <p class="HumidityClass">Humidity: <span id= "humidityID">70</span>%</p>
-                    <p class="tempHiLo">High: <span id="tempHighID">85</span>°</p>
-                    <p class="tempHiLo">Low: <span id="tempLowID">45</span>°</p>
+                    <p class="tempHiLo">High: <span id="tempHighID">85</span></p>
+                    <p class="tempHiLo">Low: <span id="tempLowID">45</span></p>
                     
                 </div>
                 
